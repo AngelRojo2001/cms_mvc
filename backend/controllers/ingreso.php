@@ -15,7 +15,7 @@ class Ingreso {
         }
         
         else {
-            echo "Error al ingresar";
+            echo '<div class="alert alert-danger">Error al ingresar</div>';
         }
     }
 
